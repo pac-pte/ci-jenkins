@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('TE1') {
           steps {
-            build(job: '0010.LIVEBOOK_UBS-Headline', wait: true)
+            build(job: 'Ralph Test', wait: true)
           }
         }
         stage('TE2') {
           steps {
-            build(job: '0010.LIVEBOOK_UBS-Headline', wait: true)
+            build(job: 'TEST', wait: true)
           }
         }
       }
