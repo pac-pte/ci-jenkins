@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('TE1') {
           steps {
-            build(job: 'Ralph Test', wait: true, propagate: true)
+            echo 'test'
           }
         }
         stage('TE2') {
           steps {
-            build(job: 'TEST', wait: true, propagate: true)
+            echo 'test2'
           }
         }
       }
