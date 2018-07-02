@@ -10,7 +10,7 @@ pipeline {
         }
         stage('TE2') {
           steps {
-            build '/HEAD_2/job/RTPMC_System/job/0010.LIVEBOOK_UBS-Headline/'
+            build '/HEAD_2/job/RTPMC_System/job/0010.LIVEBOOK_UBS-Headline'
           }
         }
       }
