@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('TE1') {
           steps {
-            build 'LIVEBOOK_UBS - v3.1.build'
+            build '/HEAD_1/job/RTPMC_System/job/0010.LIVEBOOK_UBS-Headline'
           }
         }
         stage('TE2') {
           steps {
-            build 'HEAD_2/job/RTPMC_System/job/0010.LIVEBOOK_UBS-Headline/'
+            build '/HEAD_2/job/RTPMC_System/job/0010.LIVEBOOK_UBS-Headline/'
           }
         }
       }
