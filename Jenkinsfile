@@ -17,7 +17,7 @@ pipeline {
     }
     stage('Cross Checking') {
       steps {
-        echo 'test'
+        echo 'teste3'
       }
     }
   }
